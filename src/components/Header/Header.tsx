@@ -1,9 +1,9 @@
 import React from 'react';
 import NavBar from './NavBar/NavBar';
 
-const Header: React.FC = () => {
+const Header: React.FC<React.HTMLAttributes<HTMLElement>> = (props) => {
     return (
-        <header >
+        <header {...props} >
             <NavBar />
         </header>
     );
