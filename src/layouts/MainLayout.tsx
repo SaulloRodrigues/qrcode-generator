@@ -5,8 +5,8 @@ import '@/styles/app.css';
 const MainLayout = () => {
   return (
     <>
-      <Header className="header" />
-      <main className="main">
+      <Header />
+      <main>
         <Outlet />
       </main>
     </>

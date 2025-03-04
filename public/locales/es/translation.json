@@ -1,0 +1,48 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Acerca de",
+        "contact": "Contacto"
+    },
+    "homePage": {
+        "main": {
+            "title": "¿Qué tal generar un CÓDIGO QR ahora mismo?",
+            "input": {
+                "label": "Genérelo ahora mismo, solo ingrese cualquier texto y se generará un CÓDIGO QR.",
+                "placeholder": "Su texto..."
+            }
+        }
+    },
+    "aboutPage": {
+        "main": {
+            "title": "Acerca del proyecto",
+            "subtitle": "Información sobre el proyecto",
+            "first_paragraph": "Este proyecto es una aplicación web desarrollada para ofrecer una interfaz intuitiva y práctica, permitiendo a los usuarios generar CÓDIGOS QR de manera rápida y eficiente. El principal objetivo es posibilitar que cualquier persona ingrese un texto o un enlace y, con solo un clic, obtenga un CÓDIGO QR correspondiente, listo para ser descargado y luego compartido.",
+            "second_paragraph": "La aplicación web fue diseñada con un enfoque en la simplicidad y accesibilidad, garantizando que incluso los usuarios sin conocimientos técnicos puedan utilizarla sin dificultades.",
+            "subtopic": {
+                "title": "Curiosidad",
+                "description": "Un CÓDIGO QR (Quick Response Code) es un código bidimensional que almacena datos en un patrón de módulos negros y blancos dispuestos en una matriz cuadrada. Se basa en la codificación Reed-Solomon para la corrección de errores, permitiendo que sea leído incluso si está parcialmente dañado."
+            }
+        }
+    },
+    "contactPage": {
+        "main": {
+            "title": "Contacto",
+            "subtitle": "Póngase en contacto sobre el proyecto",
+            "form": {
+                "name": {
+                    "label": "Nombre",
+                    "placeholder": "Su nombre..."
+                },
+                "options": {
+                    "label": "Seleccione una opción"
+                },
+                "message": {
+                    "label": "Mensaje",
+                    "placeholder": "Motivo del contacto..."
+                },
+                "button": "Póngase en contacto"
+            }
+        }
+    }
+}

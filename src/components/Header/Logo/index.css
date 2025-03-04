@@ -1,0 +1,25 @@
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header__logo--img {
+    width: fit-content;
+    height: 60px;
+}
+
+.header__logo--text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__logo--text span {
+    font-size: 12pt;
+    font-weight: bold;
+    color: var(--color-black);
+}
+
+.header__logo--text span:nth-child(1) {
+    color: var(--color-purple);
+}

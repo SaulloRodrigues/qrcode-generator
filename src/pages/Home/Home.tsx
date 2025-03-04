@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from '@/layouts/home.module.css';
-
+import styles from '@/pages/Home/Home.module.css';
 const Home: React.FC = () => {
     return (
         <div>

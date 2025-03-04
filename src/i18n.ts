@@ -6,9 +6,13 @@ i18n
   .use(HttpBackend)
   .use(initReactI18next)
   .init({
-    lng: "pt-br",
+    supportedLngs: ["en", "ptBR", "es"],
+    lng: "ptBR",
     fallbackLng: "en",
     debug: true,
+    backend: {
+      loadPath: "/locales/{{lng}}/translation.json"
+    },
     interpolation: {
       escapeValue: false,
     },

@@ -1,0 +1,13 @@
+.header__nav {
+    width: 100%;
+}
+.header__nav--list {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.header__nav--item {
+    color: var(--color-purple);
+    font-size: 12pt;
+    font-weight: 500;
+}
