@@ -6,7 +6,7 @@
     },
     "homePage": {
         "main": {
-            "title": "¿Qué tal generar un CÓDIGO QR ahora mismo?",
+            "title": "¿Qué tal generar un QRCODE ahora mismo?",
             "input": {
                 "label": "Genérelo ahora mismo, solo ingrese cualquier texto y se generará un CÓDIGO QR.",
                 "placeholder": "Su texto..."
@@ -21,7 +21,7 @@
             "second_paragraph": "La aplicación web fue diseñada con un enfoque en la simplicidad y accesibilidad, garantizando que incluso los usuarios sin conocimientos técnicos puedan utilizarla sin dificultades.",
             "subtopic": {
                 "title": "Curiosidad",
-                "description": "Un CÓDIGO QR (Quick Response Code) es un código bidimensional que almacena datos en un patrón de módulos negros y blancos dispuestos en una matriz cuadrada. Se basa en la codificación Reed-Solomon para la corrección de errores, permitiendo que sea leído incluso si está parcialmente dañado."
+                "description": "Un QRCODE (Quick Response Code) es un código bidimensional que almacena datos en un patrón de módulos negros y blancos dispuestos en una matriz cuadrada. Se basa en la codificación Reed-Solomon para la corrección de errores, permitiendo que sea leído incluso si está parcialmente dañado."
             }
         }
     },

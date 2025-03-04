@@ -6,7 +6,7 @@
     },
     "homePage": {
         "main": {
-            "title": "How about generating a QR CODE right now?",
+            "title": "How about generating a QRCODE right now?",
             "input": {
                 "label": "Generate it now, just enter any text and a QR CODE will be generated.",
                 "placeholder": "Your text..."
