@@ -6,10 +6,13 @@
     },
     "homePage": {
         "main": {
-            "title": "How about generating a QRCODE right now?",
+            "title": "How about generating a <0>QRCODE</0> right now?",
             "input": {
-                "label": "Generate it now, just enter any text and a QR CODE will be generated.",
+                "description": "Generate right now! Just enter any text in the field below and, in moments, a <0>QRCODE</0> will be generated automatically.",
                 "placeholder": "Your text..."
+            },
+            "button": {
+                "value": "Download"
             }
         }
     },
@@ -18,10 +21,10 @@
             "title": "About the project",
             "subtitle": "Information about the project",
             "first_paragraph": "This project is a web application designed to provide an intuitive and practical interface, allowing users to generate QR Codes quickly and efficiently. The main goal is to enable anyone to enter text or a link and, with just one click, obtain a corresponding QR Code, ready to be downloaded and shared.",
-            "second_paragraph": "The Web App was designed with a focus on simplicity and accessibility, ensuring that even users without technical knowledge can use it without difficulty.",
+            "second_paragraph": "The web app was designed with simplicity and accessibility in mind, ensuring that even users without technical knowledge can use it with ease.",
             "subtopic": {
-                "title": "Curiosity",
-                "description": "A QR Code (Quick Response Code) is a two-dimensional code that stores data in a pattern of black and white modules arranged in a square matrix. It is based on Reed-Solomon coding for error correction, allowing it to be read even if it is partially damaged."
+                "title": "Fun Fact",
+                "description": "A QR Code (Quick Response Code) is a two-dimensional code that stores data in a pattern of black and white modules arranged in a square matrix. It is based on Reed-Solomon error correction encoding, allowing it to be read even if it is partially damaged."
             }
         }
     },

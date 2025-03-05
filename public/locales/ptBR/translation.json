@@ -6,10 +6,13 @@
     },
     "homePage": {
         "main": {
-            "title": "Que tal gerar um QRCODE agora mesmo?",
+            "title": "Que tal gerar um <0>QRCODE</0> agora mesmo?",
             "input": {
-                "label": "Gere agora mesmo, basta inserir qualquer texto e um QRCODE será gerado.",
+                "description": "Gere agora mesmo! Basta inserir qualquer texto no campo abaixo e, em instantes, um <0>QRCODE</0> será gerado automaticamente.",
                 "placeholder": "Seu texto..."
+            },
+            "button": {
+                "value": "Baixar"
             }
         }
     },

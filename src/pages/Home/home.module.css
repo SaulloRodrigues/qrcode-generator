@@ -1,11 +1,29 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.home {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  align-items: center;
 }
 
-.us_flag {
-  width: 50px;
-  height: 50px;
+.home__intro {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home__intro_title {
+  width: 50%;
+  font-size: 38pt;
+  color: var(--color-black);
+}
+
+.home__intro_highlight {
+  color: var(--color-purple);
+}
+
+.home__intro_appIllustration {
+  width: fit-content;
+  height: 31.25rem;
 }

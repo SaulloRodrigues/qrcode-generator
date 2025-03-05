@@ -12,6 +12,7 @@
   "dependencies": {
     "i18next": "^24.2.2",
     "i18next-http-backend": "^3.0.2",
+    "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-i18next": "^15.4.1",
