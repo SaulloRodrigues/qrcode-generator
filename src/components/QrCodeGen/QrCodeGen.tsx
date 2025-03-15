@@ -19,11 +19,6 @@ const QrCodeGen: React.FC = () => {
     return (
         <div className="qrcd__gen">
             <div className="qrcd__gen--input__ctn">
-                <p className="qrcd__gen--description">
-                    <Trans i18nKey={"homePage.main.input.description"}>
-                        <strong>QRCODE</strong>
-                    </Trans>
-                </p>
                 <Input
                     id="qrcd_input"
                     className="qrcd__gen--input"

@@ -1,20 +1,11 @@
 .qrcd__gen {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-}
-
-.qrcd__gen--description {
-    font-size: 12pt;
-    font-weight: 500;
-    color: var(--color-black);
-    margin-bottom: 10px;
-}
-
-.qrcd__gen--description strong {
-    color: var(--color-purple);
+    margin: 20px 0;
 }
 
 .qrcd__gen__ctn {
@@ -23,6 +14,11 @@
     align-items: center;
     gap: 0.5rem;
 }
+
+.qrcd__gen--input__ctn {
+    width: 100%;
+}
+
 
 .qrcd__gen__ctn__image {
     width: fit-content;
@@ -38,11 +34,17 @@
 }
 
 .qrcd__gen__ctn__download--btn{
+    margin: 10px 0;
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 0.2rem;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+    gap: 0.265rem;
     font-size: 13pt;
     font-weight: 500;
+    background-color: rgba(105, 97, 255, 0.15);
 }
 .qrcd__gen__ctn__download--btn svg {
     width: 20px;

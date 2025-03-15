@@ -6,9 +6,10 @@
     },
     "homePage": {
         "main": {
-            "title": "¿Qué tal generar un <0>QRCODE</0> ahora mismo?",
+            "information": "Genera un <0>QR Code</0> de forma sencilla",
+            "title": "¿Necesitas un <0>QRCODE</0>?",
+            "description": "Just fill in the field below with any <0>text</0>, and you'll get a <0>QR code</0> to use for your <0>business</0>, <0>payment</0>, <0>email</0>, or anything else you need.",
             "input": {
-                "description": "¡Genera ahora mismo! Solo ingresa cualquier texto en el campo abajo y, en instantes, un <0>QRCODE</0> será generado automáticamente.",
                 "placeholder": "Tu texto..."
             },
             "button": {
@@ -18,20 +19,20 @@
     },
     "aboutPage": {
         "main": {
-            "title": "Acerca del proyecto",
+            "title": "Sobre el proyecto",
             "subtitle": "Información sobre el proyecto",
-            "first_paragraph": "Este proyecto es una aplicación web diseñada para ofrecer una interfaz intuitiva y práctica, permitiendo a los usuarios generar códigos QR de manera rápida y eficiente. El objetivo principal es permitir que cualquier persona ingrese un texto o un enlace y, con solo un clic, obtenga un código QR correspondiente, listo para descargar y compartir.",
-            "second_paragraph": "La aplicación web fue diseñada con un enfoque en la simplicidad y accesibilidad, garantizando que incluso los usuarios sin conocimientos técnicos puedan utilizarla sin dificultad.",
+            "first_paragraph": "Este proyecto es una aplicación web desarrollada para ofrecer una interfaz intuitiva y práctica, permitiendo a los usuarios generar códigos QR de manera rápida y eficiente. El principal objetivo es que cualquier persona pueda introducir un texto o un enlace y, con un solo clic, obtener un código QR listo para descargar y compartir.",
+            "second_paragraph": "La aplicación web fue diseñada con un enfoque en la simplicidad y accesibilidad, garantizando que incluso los usuarios sin conocimientos técnicos puedan utilizarla sin dificultades.",
             "subtopic": {
-                "title": "Dato Curioso",
-                "description": "Un código QR (Quick Response Code) es un código bidimensional que almacena datos en un patrón de módulos blancos y negros dispuestos en una matriz cuadrada. Se basa en la codificación de corrección de errores Reed-Solomon, lo que permite que sea leído incluso si está parcialmente dañado."
+                "title": "Curiosidad",
+                "description": "Un QR Code (Código de Respuesta Rápida) es un código bidimensional que almacena datos en un patrón de módulos negros y blancos dispuestos en una matriz cuadrada. Está basado en la codificación Reed-Solomon para la corrección de errores, lo que permite que pueda ser leído incluso si está parcialmente dañado."
             }
         }
     },
     "contactPage": {
         "main": {
             "title": "Contacto",
-            "subtitle": "Ponte en contacto sobre el proyecto",
+            "subtitle": "Ponerse en contacto sobre el proyecto",
             "form": {
                 "name": {
                     "label": "Nombre",

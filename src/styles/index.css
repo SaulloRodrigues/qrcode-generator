@@ -31,9 +31,8 @@ ul {
   list-style: none;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+p {
+  line-height: 1.4rem;
 }
 
 button, input {

@@ -6,9 +6,10 @@
     },
     "homePage": {
         "main": {
-            "title": "How about generating a <0>QRCODE</0> right now?",
+            "information": "Generate a <0>QR Code</0> easily",
+            "title": "Do you need a <0>QRCODE</0>?",
+            "description": "Just fill in the field below with any <0>text</0>, and you'll get a <0>QR code</0> to use for your <0>business</0>, <0>payment</0>, <0>email</0>, or anything else you need.",
             "input": {
-                "description": "Generate right now! Just enter any text in the field below and, in moments, a <0>QRCODE</0> will be generated automatically.",
                 "placeholder": "Your text..."
             },
             "button": {
@@ -19,12 +20,12 @@
     "aboutPage": {
         "main": {
             "title": "About the project",
-            "subtitle": "Information about the project",
-            "first_paragraph": "This project is a web application designed to provide an intuitive and practical interface, allowing users to generate QR Codes quickly and efficiently. The main goal is to enable anyone to enter text or a link and, with just one click, obtain a corresponding QR Code, ready to be downloaded and shared.",
-            "second_paragraph": "The web app was designed with simplicity and accessibility in mind, ensuring that even users without technical knowledge can use it with ease.",
+            "subtitle": "Project information",
+            "first_paragraph": "This project is a web application designed to offer an intuitive and practical interface, allowing users to generate QR Codes quickly and efficiently. The main goal is to enable anyone to enter text or a link and, with just one click, obtain a corresponding QR Code ready to be downloaded and shared.",
+            "second_paragraph": "The web app was designed with a focus on simplicity and accessibility, ensuring that even users without technical knowledge can use it without difficulty.",
             "subtopic": {
-                "title": "Fun Fact",
-                "description": "A QR Code (Quick Response Code) is a two-dimensional code that stores data in a pattern of black and white modules arranged in a square matrix. It is based on Reed-Solomon error correction encoding, allowing it to be read even if it is partially damaged."
+                "title": "Curiosity",
+                "description": "A QR Code (Quick Response Code) is a two-dimensional code that stores data in a pattern of black and white modules arranged in a square matrix. It is based on Reed-Solomon coding for error correction, allowing it to be read even if it is partially damaged."
             }
         }
     },

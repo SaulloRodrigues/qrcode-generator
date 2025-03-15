@@ -6,9 +6,10 @@
     },
     "homePage": {
         "main": {
-            "title": "Que tal gerar um <0>QRCODE</0> agora mesmo?",
+            "information": "Gere um <0>QR Code</0> de forma simples",
+            "title": "Você, está precisando de um <0>QRCODE</0>?",
+            "description": "Basta preencher o campo abaixo com qualquer <0>texto</0> e você terá um <0>QR code</0> para usar para seu <0>négocio</0>, <0>pix</0>, <0>e-mail</0> ou qualquer outra coisa que você desejar.",
             "input": {
-                "description": "Gere agora mesmo! Basta inserir qualquer texto no campo abaixo e, em instantes, um <0>QRCODE</0> será gerado automaticamente.",
                 "placeholder": "Seu texto..."
             },
             "button": {
