@@ -3,11 +3,30 @@
 }
 .header__nav--list {
     display: flex;
+    align-items: center;
     gap: 2.5rem;
 }
 
-.header__nav--item {
+.header__nav--item a {
     color: var(--color-purple);
     font-size: 12pt;
     font-weight: 500;
+}
+
+.header__nav--icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 0.265rem;
+    fill: white !important;
+}
+
+#contact_link {
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: rgba(105, 97, 255, 1);
+    color: white;
+}
+
+#contact_link a{
+    color: white;
 }

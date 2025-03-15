@@ -2,8 +2,10 @@
     "nav": {
         "home": "Home",
         "about": "About",
-        "contact": "Contact"
-    },
+        "contact": {
+            "name": "Contact",
+            "msg_link": "mailto:thesaullodev@gmail.com?subject=Interest in your project&body=Hello, I would like to talk to you about your QR Code generator project."
+        }    },
     "homePage": {
         "main": {
             "information": "Generate a <0>QR Code</0> easily",

@@ -2,7 +2,10 @@
     "nav": {
         "home": "Início",
         "about": "Sobre",
-        "contact": "Contato"
+        "contact": {
+            "name": "Contato",
+            "msg_link": "mailto:thesaullodev@gmail.com?subject=Interesse no seu projeto&body=Olá, eu gostaria de falar com você sobre o seu Projeto do gerador de QR Code."
+        }
     },
     "homePage": {
         "main": {

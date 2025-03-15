@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./index.css";
 import { QRCodeSVG } from "qrcode.react";
 import Input from "@/components/Input/Input";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation} from "react-i18next";
 import { FaCircleDown } from "react-icons/fa6";
 import { useQrCode } from "@/hooks/useQrCode";
 
@@ -22,6 +22,7 @@ const QrCodeGen: React.FC = () => {
                 <Input
                     id="qrcd_input"
                     className="qrcd__gen--input"
+                    autoComplete="off"
                     placeholder={t("homePage.main.input.placeholder")}
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
@@ -38,7 +39,7 @@ const QrCodeGen: React.FC = () => {
                 <a
                     href={downloadUrl || "#"}
                     download={downloadUrl ? "qrcode.png" : undefined}
-                    className={`qrcd__gen__ctn__download--btn`}
+                    className="qrcd__gen__ctn__download--btn"
                     onClick={(e) => {
                         if (!downloadUrl) {
                             e.preventDefault();
