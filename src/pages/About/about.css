@@ -3,48 +3,38 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     height: 100%;
-    gap: 2.5rem;
+    gap: 5rem;
 }
 
-.topics {
+.about__illustrations {
+    width: fit-content;
+}
+
+.illustration {
+    margin-top: 10rem;
+    width: 100%;
+    height: max-content;
+}
+
+.about__prj__topic {
     display: flex;
     flex-direction: column;
 }
 
-.paragraph__text {
-    margin: 15px 0;
-    text-align: justify;
-    line-height: 1.6rem;
-    color: var(--color-purple);
-    font-weight: 500;
-}
-
-.titles {
+.about__topic__title {
     text-align: center;
-
-}
-
-.descriptions {
-    font-weight: 400;
-    letter-spacing: 0.5px;
-}
-
-.about__prj__subtopic {
-    margin: 0.6em 0;
 }
 
 .about__topic__title_txt {
     font-size: 22pt;
 }
 
-.about__subtopic_title_txt {
-    font-size: 18pt;
-}
-
-.about__prj_btn svg {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
+.about__topic__des_txt {
+    margin: 35px 0;
+    text-align: justify;
+    line-height: 1.6rem;
+    color: var(--color-purple);
+    font-weight: 500;
 }
 
 .about__prj__btns {
@@ -52,3 +42,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+.about__prj__btns svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+

@@ -26,12 +26,7 @@
             "subtitle": "Información sobre el proyecto",
             "first_paragraph": "Este proyecto es una aplicación web desarrollada para ofrecer una interfaz intuitiva y práctica, permitiendo a los usuarios generar QR Codes de forma rápida y eficiente. El objetivo principal es que cualquier persona pueda ingresar un texto o un enlace y, con solo un clic, obtener un QR Code correspondiente, listo para descargar y compartir.",
             "second_paragraph": "La aplicación web ha sido diseñada con un enfoque en la simplicidad y accesibilidad, garantizando que incluso los usuarios sin conocimientos técnicos puedan utilizarla sin dificultades.",
-            "third_paragraph": "También contamos con un botón que permite al usuario cambiar fácilmente el idioma de la página, proporcionando una mejor comprensión de la información contenida en la aplicación según el idioma preferido del usuario.",
-            "subtopic": {
-                "title": "Curiosidad",
-                "subtitle": "Sobre la creación del QRCODE",
-                "description": "Un QR Code (Quick Response Code) es un código bidimensional que almacena datos en un patrón de módulos blancos y negros dispuestos en una matriz cuadrada. Se basa en la codificación Reed-Solomon para la corrección de errores, lo que permite que se pueda leer incluso si está parcialmente dañado."
-            }
+            "third_paragraph": "También contamos con un botón que permite al usuario cambiar fácilmente el idioma de la página, proporcionando una mejor comprensión de la información contenida en la aplicación según el idioma preferido del usuario."
         }
     }
 }

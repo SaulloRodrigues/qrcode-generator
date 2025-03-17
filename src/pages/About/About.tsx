@@ -19,27 +19,18 @@ const About: React.FC = () => {
     return (
         <section className="about">
             <div className="about__illustrations">
-                <ReactSVG src={IllustrationLearning}></ReactSVG>
+                <ReactSVG afterInjection={(svg) => {svg.classList.add("illustration")}} src={IllustrationLearning}></ReactSVG>
             </div>
             <div className="about__prj">
-                <div className="about__prj__topic topics">
-                    <div className="about__topic__title titles">
+                <div className="about__prj__topic">
+                    <div className="about__topic__title">
                         <h1 className="about__topic__title_txt">{t("aboutPage.main.title")}</h1>
-                        <p className="about__topic__subtitle_txt descriptions">{t("aboutPage.main.subtitle")}</p>
+                        <p className="about__topic__subtitle_txt">{t("aboutPage.main.subtitle")}</p>
                     </div>
                     <div className="about__topic__des">
-                        <p className="about__topic__des_txt paragraph__text">{t("aboutPage.main.first_paragraph")}</p>
-                        <p className="about__topic__des_txt paragraph__text">{t("aboutPage.main.second_paragraph")}</p>
-                        <p className="about__topic__des_txt paragraph__text">{t("aboutPage.main.third_paragraph")}</p>
-                    </div>
-                </div>
-                <div className="about__prj__subtopic topics">
-                    <div className="about__subtopic_title titles">
-                        <h2 className="about__subtopic_title_txt">{t("aboutPage.main.subtopic.title")}</h2>
-                        <p className="about__subtopic_subtitle_txt descriptions">{t("aboutPage.main.subtopic.subtitle")}</p>
-                    </div>
-                    <div className="about__subtopic_des">
-                        <p className="about__subtopic_des_txt paragraph__text">{t("aboutPage.main.subtopic.description")}</p>
+                        <p className="about__topic__des_txt">{t("aboutPage.main.first_paragraph")}</p>
+                        <p className="about__topic__des_txt">{t("aboutPage.main.second_paragraph")}</p>
+                        <p className="about__topic__des_txt">{t("aboutPage.main.third_paragraph")}</p>
                     </div>
                 </div>
                 <div className="about__prj__btns">
