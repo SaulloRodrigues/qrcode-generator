@@ -10,6 +10,7 @@
 
 :root {
   --color-purple: #6C63FF;
+  --color-purple--10: rgba(107, 99, 255, 0.1);
   --color-black: #30303F;
 }
 

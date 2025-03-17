@@ -1,0 +1,14 @@
+.button-link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    font-size: 12pt;
+    gap: 4px;
+    background-color: var(--color-purple--10);
+    font-weight: 500;
+    color: var(--color-purple);
+}
