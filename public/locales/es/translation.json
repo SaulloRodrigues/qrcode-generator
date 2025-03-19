@@ -22,7 +22,7 @@
     },
     "aboutPage": {
         "main": {
-            "title": "Sobre",
+            "title": "Acerca de",
             "subtitle": "Información sobre el proyecto",
             "first_paragraph": "Este proyecto es una aplicación web desarrollada para ofrecer una interfaz intuitiva y práctica, permitiendo a los usuarios generar QR Codes de forma rápida y eficiente. El objetivo principal es que cualquier persona pueda ingresar un texto o un enlace y, con solo un clic, obtener un QR Code correspondiente, listo para descargar y compartir.",
             "second_paragraph": "La aplicación web ha sido diseñada con un enfoque en la simplicidad y accesibilidad, garantizando que incluso los usuarios sin conocimientos técnicos puedan utilizarla sin dificultades.",
