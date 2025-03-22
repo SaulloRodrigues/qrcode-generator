@@ -11,3 +11,9 @@ main {
     height: 100%;
     max-height: 90dvh;
 }
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0 1.2em;
+  }
+}

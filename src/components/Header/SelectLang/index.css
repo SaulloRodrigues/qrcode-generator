@@ -142,3 +142,35 @@
         transform: translateY(-10px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    /* Select Lang component disabled due to its different mobile mode. */
+    .header__select {
+        display: none;
+    }
+
+    .header__nav__mobile__select {
+        width: 100%;
+    }
+    
+    .header__nav__mobile__select--list {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        margin: 12.5px 0;
+    }
+
+    .header__nav__mobile__select--lang {
+        display: flex;
+        gap: 0.265rem;
+        font-size: 12.5pt;
+        font-weight: 600;
+        color: var(--color-purple);
+    }
+
+    .header__select--flag {
+        width: 22px;
+        height: 22px;
+    }
+}

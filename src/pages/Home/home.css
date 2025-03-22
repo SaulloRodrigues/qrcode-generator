@@ -9,7 +9,7 @@
 }
 
 .home__info {
-  width:  fit-content;
+  width: fit-content;
   color: white;
   padding: 5px;
   display: flex;
@@ -53,8 +53,14 @@
 .home_highlight {
   color: var(--color-purple);
 }
+
 .home__gen {
   width: 70%;
   width: 65%;
   max-width: 100%;
+}
+
+/* Responsive - Home - Mobile */
+@media screen and (max-width: 768px) {
+  
 }

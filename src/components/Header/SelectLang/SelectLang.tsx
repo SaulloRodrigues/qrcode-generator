@@ -8,9 +8,13 @@ import USFlag from "@/assets/flags/us_flag.svg";
 import ESFlag from "@/assets/flags/es_flag.svg";
 import BRFlag from "@/assets/flags/br_flag.svg";
 
-const SelectLang: React.FC = () => {
+interface SelectLangProps {
+    mobileMode?: boolean;
+}
+
+const SelectLang: React.FC<SelectLangProps> = ({ mobileMode }) => {
     const { i18n } = useTranslation();
-    
+
     const langs: Record<string, { name: string; flag: string }> = {
         en: { name: "English", flag: USFlag },
         es: { name: "Spanish", flag: ESFlag },
@@ -45,21 +49,40 @@ const SelectLang: React.FC = () => {
     };
 
     return (
-        <div className="header__select">
-            <button className={`header__select--button ${hasListOpen ? "list--active" : ""}`} onClick={toggleList}>
-                <ReactSVG className="header__select--flag" src={langs[i18n.language].flag} />
-                {langs[i18n.language].name}
-                <FaChevronDown />
-            </button>
-            <ul className={`header__select--list ${hasListOpen ? "active" : ""} ${isClosing ? "closing" : ""}`}>
-                {langList.map((lang) => (
-                    <li key={lang} data-lang={lang} onClick={handleLangChange} className="header__select--lang">
-                        <ReactSVG className="header__select--flag" src={langs[lang].flag} />
-                        {langs[lang].name}
-                    </li>
-                ))}
-            </ul>
-        </div>
+        <>
+            {!mobileMode ?
+                (
+                    <div className="header__select">
+                        <button className={`header__select--button ${hasListOpen ? "list--active" : ""}`} onClick={toggleList}>
+                            <ReactSVG className="header__select--flag" src={langs[i18n.language].flag} />
+                            {langs[i18n.language].name}
+                            <FaChevronDown />
+                        </button>
+                        <ul className={`header__select--list ${hasListOpen ? "active" : ""} ${isClosing ? "closing" : ""}`}>
+                            {langList.map((lang) => (
+                                <li key={lang} data-lang={lang} onClick={handleLangChange} className="header__select--lang">
+                                    <ReactSVG className="header__select--flag" src={langs[lang].flag} />
+                                    {langs[lang].name}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ) : (
+                    <div className="header__nav__mobile__select">
+                        <ul className="header__nav__mobile__select--list">
+                            {langList.map((lang) => (
+                                <li key={lang} data-lang={lang} onClick={handleLangChange} className="header__nav__mobile__select--lang">
+                                    <ReactSVG className="header__select--flag" src={langs[lang].flag} />
+                                    {langs[lang].name}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )
+            }
+
+
+        </>
     );
 };
 

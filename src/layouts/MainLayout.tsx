@@ -3,6 +3,7 @@ import React from "react";
 import { useOutlet, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Header from "@/components/Header/Header";
+import { MobileProvider } from "@/contexts/MobileContext";
 
 const MainLayout: React.FC = () => {
   const outlet = useOutlet();
@@ -16,7 +17,9 @@ const MainLayout: React.FC = () => {
 
   return (
     <>
-      <Header />
+      <MobileProvider>
+        <Header />
+      </MobileProvider>
       <main>
         <AnimatePresence mode="wait">
           <motion.div

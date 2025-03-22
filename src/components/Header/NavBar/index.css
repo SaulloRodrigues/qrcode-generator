@@ -1,6 +1,7 @@
 .header__nav {
     width: fit-content;
 }
+
 .header__nav--list {
     display: flex;
     align-items: center;
@@ -21,12 +22,19 @@
 }
 
 #contact_link {
+    width: fit-content;
     padding: 5px 15px;
     border-radius: 20px;
     background-color: rgba(105, 97, 255, 1);
     color: white;
 }
 
-#contact_link a{
+#contact_link a {
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header__nav {
+        display: none;
+    }
 }

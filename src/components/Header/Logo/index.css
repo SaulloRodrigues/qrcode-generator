@@ -23,3 +23,14 @@
 .header__logo--text span:nth-child(1) {
     color: var(--color-purple);
 }
+
+
+@media screen and (max-width: 768px) {
+    .header__logo--img {
+      height: 50px;
+    }
+
+    .header__logo--text span {
+        font-size: 11pt;
+    }
+  }
