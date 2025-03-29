@@ -3,6 +3,7 @@ import MainLayout from '@/layouts/MainLayout';
 import Home from '@/pages/Home/Home';
 import About from '@/pages/About/About';
 import "@/styles/app.css";
+import NotFound from '@/pages/NotFound/NotFound';
 
 const AppRoutes = createBrowserRouter([
     {
@@ -15,7 +16,7 @@ const AppRoutes = createBrowserRouter([
     },
     {
         path: '*',
-        element: <>404 - Not Found.</>,
+        element: <NotFound/>,
     },
 ]);
 
