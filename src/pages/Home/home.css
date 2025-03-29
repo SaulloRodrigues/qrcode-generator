@@ -62,5 +62,28 @@
 
 /* Responsive - Home - Mobile */
 @media screen and (max-width: 768px) {
-  
+
+  .home__info {
+    display: none;
+  }
+
+  .home__title_text {
+    font-size: 22pt;
+  }
+
+  .home__description {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100%;
+    font-size: 13pt;
+    font-weight: 400;
+  }
+
+  .home__gen {
+    width: 100%;
+  }
+
+  .qrcd__gen__ctn__download--btn {
+    padding: 12.5px;
+  }
 }
