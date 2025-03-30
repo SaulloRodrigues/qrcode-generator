@@ -6,7 +6,7 @@ import { useTranslation} from "react-i18next";
 import { FaCircleDown } from "react-icons/fa6";
 import { useQrCode } from "@/hooks/useQrCode";
 
-const QrCodeGen: React.FC = () => {
+const QrCodeGenerator: React.FC = () => {
     const { t } = useTranslation();
     const [inputValue, setInputValue] = useState<string>("");
     const { qrCodeRef, downloadUrl, generateQrCodeUrl } = useQrCode();
@@ -54,4 +54,4 @@ const QrCodeGen: React.FC = () => {
     );
 };
 
-export default QrCodeGen;
+export default QrCodeGenerator;

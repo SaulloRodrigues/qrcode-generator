@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 import { FaSpinner } from 'react-icons/fa6';
-import QrCodeGen from '@/components/QrCodeGen/QrCodeGen';
+import QrCodeGenerator from '@/components/QrCodeGenerator/QrCodeGenerator';
 import '@/pages/Home/home.css'
 
 const Home: React.FC = () => {
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
                 </p>
             </div>
             <div className="home__gen">
-                <QrCodeGen />
+                <QrCodeGenerator />
             </div>
         </section>
     );
