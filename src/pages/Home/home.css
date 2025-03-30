@@ -62,7 +62,9 @@
 
 /* Responsive - Home - Mobile */
 @media screen and (max-width: 768px) {
-
+  .home {
+    margin-top: 25px;
+  }
   .home__info {
     display: none;
   }

@@ -29,7 +29,7 @@ const MainLayout: React.FC = () => {
             animate="visible"
             exit="exit"
             transition={{ duration: 0.4 }}
-            style={{ position: "absolute", width: "100%", height: "100%" }}
+            style={{ position: "relative", width: "100%", height: "100%" }}
           >
             {outlet}
           </motion.div>
