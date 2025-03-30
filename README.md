@@ -1,54 +1,48 @@
-# React + TypeScript + Vite
+<div align="center">
+	<p>
+		<a href="https://qrcode-generator.saullo.dev"><img src="./public/app-logo.svg" height="200" alt="QRCODE Generator" /></a>
+	</p>
+	<br />
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# QR Code Generator - Customized QRCODE generated in an easy way.
+This project demonstrates how to generate dynamic QR codes using React, TypeScript, and Vite. It offers a customizable and easy way to create QR codes that can change based on the content or parameters passed to the application. The project is designed to be fast, responsive, and scalable, offering a modern development environment with support for multiple languages.
 
-Currently, two official plugins are available:
+## About
+The QR Code Generator provides an intuitive interface to generate customized QR codes. With the integration of QRCode.react, you can create dynamic QR codes with various styles, sizes, and content directly from your web application. This project also supports multi-language functionality, allowing users to interact with the interface in their preferred language, thanks to the integration of i18next and react-i18next for internationalization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Whether you want to generate a URL, contact information, or any other type of data, this tool makes the process simple and fast. It's perfect for creating QR codes for websites, marketing campaigns, business cards, event tickets, or any application where QR codes are useful.
 
-## Expanding the ESLint configuration
+## Project Structure
+- 📂[**src/**](./src/) - Contains the main application code, including components, pages, and the QR code generation logic.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 📂[**public/**](./public/) - Contains static assets like the HTML file and images.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Technologies Used
+- **React.js**: For building the user interface.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **TypeScript**: For type safety and improved development experience.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Vite**: For fast builds and hot module replacement (HMR).
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **QRCode.react**: For QR code generation.
+
+- **Framer Motion**: For animations.
+
+- **i18next and react-i18next**: For internationalization.
+
+- **React Router**: For page navigation.
+
+- **React Icons**: For user interface icons.
+
+## Author(s) this project
+
+- 👨‍💻 [@SaulloRodrigues](https://github.com/SaulloRodrigues)
+
+## Contributing
+If you'd like to contribute to the project, you're more than welcome! Feel free to fork the repository and submit a pull request. We’ll review it as soon as possible and get back to you. Your contributions are highly appreciated and help make the project even better! 🤠🤝
+
+## Licenses
+Some of the licenses for this project in question.
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE.txt)
